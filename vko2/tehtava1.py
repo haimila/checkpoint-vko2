@@ -24,6 +24,6 @@ s3 = boto3.client("s3")
 s3.create_bucket(Bucket="mitja-checkpoint-vko2")
 s3.upload_file("checkpoint.txt","mitja-checkpoint-vko2","checkpoint1.txt")
 
-
+print("Success!")
 
 
